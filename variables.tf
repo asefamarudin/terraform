@@ -1,11 +1,11 @@
 variable "namespace" {
   description = "The project namespace to use for unique resource naming"
-  default     = "LL-TEST"
+  default     = "gass"
   type        = string
 }
 
 variable "region" {
   description = "AWS region"
-  default     = "us-east-1"
+  default     = "ap-southeast-1"
   type        = string
 }
